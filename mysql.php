@@ -3,7 +3,7 @@ $hostname = "localhost";
 $username = "root";
 $password = "413sql";
 $bd = "ff_web_admin";
-
+$new_variable="";
 $conexiune = mysqli_connect($hostname,$username,$password)
 or die ("Eroare! Functia apelata da eroare, este posbil ca cei 3 parametrii sa fie completati eronat!");
 
